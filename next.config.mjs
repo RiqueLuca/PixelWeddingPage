@@ -7,6 +7,11 @@ const nextConfig = {
   // Static HTML export -> ./out (works on GitHub Pages / any static host).
   output: "export",
   basePath: basePath || undefined,
+  // Guarantee the base path is inlined into the client bundle so plain <img>
+  // asset paths (lib/assets.ts) get prefixed too.
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   trailingSlash: true,
   reactStrictMode: true,
   images: {
