@@ -37,6 +37,9 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: /PixelWeddingPage
 
       - uses: actions/configure-pages@v5
+        with:
+          # Auto-enable GitHub Pages (build type: GitHub Actions) on first run.
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
