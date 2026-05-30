@@ -1,0 +1,2 @@
+Coloque aqui suas fotos do casal com os nomes: foto1.png, foto2.png, foto3.png, foto4.png, foto5.png, foto6.png
+(qualquer tamanho; serao exibidas em estilo pixelado nas cartas colecionaveis)
