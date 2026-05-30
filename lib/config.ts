@@ -12,15 +12,15 @@ export const wedding = {
   },
   // Event details — placeholders, replace with the real info.
   event: {
-    local: "A definir",
-    endereco: "Endereço a confirmar",
-    horario: "16h00",
-    dressCode: "Traje social — tons de conto de fadas bem-vindos",
+    local: "Igreja Santissima Trindade",
+    endereco: "Igreja Santissima Trindade",
+    horario: "16h30",
+    dressCode: "Traje social",
     cidade: "Brasil",
   },
   rsvp: {
     // Put your RSVP form link here (Google Forms, etc.). Empty = mailto fallback.
-    url: "",
+      url: "https://docs.google.com/forms/d/e/1FAIpQLSfTWAPTufbNJYENXJwLXHRwnjnUvkbPwkq_VsoN0CS9eKnZHA/viewform?usp=publish-editor",
     email: "henriqueluca.p@gmail.com",
     deadlineLabel: "Confirme até 13 de fevereiro de 2027",
   },
